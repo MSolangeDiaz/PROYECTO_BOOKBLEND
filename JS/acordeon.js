@@ -3,23 +3,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     acordeones.forEach(function(acordeon) {
         const btnAcordeon = acordeon.querySelector('.btn-acordeon');
+        const contenidoAcordeon = acordeon.querySelector('.contenido-acordeon');
 
-        btnAcordeon.addEventListener('change', function() {
-            if (this.checked) {
-                // Si se selecciona el botón del acordeón, deselecciona los otros botones
-                acordeones.forEach(function(item) {
-                    if (item !== acordeon) {
-                        item.querySelector('.btn-acordeon').checked = false;
-                    }
-                });
+        btnAcordeon.addEventListener('click', function() {
+            if (btnAcordeon.checked) {
+                // Si el botón está marcado, abrir el contenido
+                contenidoAcordeon.style.maxHeight = contenidoAcordeon.scrollHeight + "px";
             } else {
-                // Si se deselecciona el botón del acordeón, cierra el contenido
-                acordeon.querySelector('.contenido-acordeon').style.maxHeight = '0px';
+                // Si el botón no está marcado, cerrar el contenido
+                contenidoAcordeon.style.maxHeight = "0px";
             }
         });
     });
 
-    // Evento para cerrar el acordeón cuando se hace clic fuera de él
+    // cuando se hace clic fuera de él
     document.addEventListener('click', function(event) {
         if (!event.target.closest('.acordeon')) {
             acordeones.forEach(function(acordeon) {
