@@ -23,7 +23,7 @@ document.getElementById('form-suscripcion').addEventListener('submit', function(
                 event.preventDefault(); 
                 return; 
         }
-        window.location.href="./PAIGINA.HTML"
+        window.location.href="./index.html"
         alert(mensaje);
         
     }
@@ -32,6 +32,6 @@ document.getElementById('form-suscripcion').addEventListener('submit', function(
 document.getElementById('form-login').addEventListener('submit', function(event) {
     event.preventDefault(); 
     alert('Has iniciado sesión correctamente en Book Blend. ¡Bienvenido de vuelta!');
-    window.location.href="./PAIGINA.HTML"
+    window.location.href="./index.html"
 });
 

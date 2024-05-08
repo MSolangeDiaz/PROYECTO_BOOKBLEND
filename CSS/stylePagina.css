@@ -1,5 +1,5 @@
 a {
-  color:#262424;
+  color: #262424;
   text-decoration: none;
 }
 
@@ -17,15 +17,13 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  background-color:write;
-  background-size: auto 100vh; 
+  background-color: white;
+  background-size: auto 100vh;
 }
 
 header h1 {
   text-align: center;
-
 }
-
 
 nav {
   background-color: #0799b6;
@@ -40,8 +38,8 @@ nav {
   align-items: center;
   height: 20vh;
   width: 100%;
-  border-radius: 0; 
-  position: fixed; 
+  border-radius: 0;
+  position: fixed;
 }
 
 .navbar-brand img {
@@ -62,19 +60,20 @@ nav {
   display: inline-block;
   vertical-align: middle;
 }
+
 #btn-inicio-sesion,
 #btn-suscripcion {
-    padding: 0px 0px; 
-    border-radius: 5px;
-    margin: 30px; 
-    background-color: transparent;
-    color: #262424; 
-    border: 1px solid #262424; 
+  padding: 0px 0px;
+  border-radius: 5px;
+  margin: 30px;
+  background-color: transparent;
+  color: #262424;
+  border: 1px solid #262424;
 }
 
 #btn-inicio-sesion,
 #btn-suscripcion {
-  background-color:transparent; 
+  background-color: transparent;
   color: #fff;
   text-decoration: none;
 }
@@ -106,7 +105,7 @@ nav ul {
 
 nav ul li {
   margin-right: 20px;
-  margin-top: 30px; 
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -123,104 +122,6 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #444;
-}
-
-@media screen and (max-width: 768px) {
-  nav {
-    padding: 10px;
-    
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-    
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
-
-  nav ul li:last-child {
-    margin-bottom: 0;
-    
-  }
-}
-@media only screen and (max-width: 991px) {
-  .ini-ses {
-    display: flex;
-  }
-
-  nav {
-    z-index: 99;
-  }
-
-  nav>div {
-    background-color: #9cd2d3;
-  }
-
-  .nav-login {
-    display: none;
-  }
-
-  .navbar-brand img {
-    height: auto;
-    width: 20vw;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-
-  main {
-    text-align: center;
-  }
-
-  .mainText {
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .mainText {
-    padding-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-
-  nav div#navbarNav ul li a {
-    font-size: 90%;
-
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .navbar-brand img {
-    height: auto;
-    width: 40vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  section {
-    padding: 10px;
-  }
-
-  section p {
-    font-size: 0.9em;
-  }
-
-  h2,
-  h3 {
-    font-size: 1.3em;
-  }
 }
 
 /* Estilo para la sección carrusel */
@@ -250,7 +151,7 @@ nav ul li a:hover {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
-  display: none; 
+  display: none;
 }
 
 .prev-nextpp button {
@@ -270,11 +171,11 @@ nav ul li a:hover {
 }
 
 .previ {
-  left: 20px; 
+  left: 20px;
 }
 
 .sigu {
-  right: 20px; 
+  right: 20px;
 }
 
 /* QUIENES SOMOS */
@@ -282,16 +183,18 @@ nav ul li a:hover {
 main img {
   width: 20em;
 }
+
 #quienes-somos {
   padding: 20px;
 }
+
 .quieneSomos {
   margin-top: 0;
   margin-top: 0;
 }
 
 main div.container-quienes {
-  background:#c9c8c9;
+  background: #c9c8c9;
   border-radius: 0;
   display: flex;
   justify-content: space-evenly;
@@ -303,45 +206,6 @@ main div.container-quienes {
   text-align: right;
 }
 
-/* MEDIAS QUERY */
-
-@media only screen and (max-width: 650px) {
-  .mainImg {
-    display: none;
-  }
-
-  .logoFooter {
-    grid-area: 1 / 1 / span 1 / span 3;
-    padding-bottom: 3vh;
-    padding-top: 3vh;
-  }
-
-  .accesoRapido {
-    grid-area: 2 / 1 / span 1 / span 3;
-    padding-bottom: 3vh;
-  }
-
-  .logoRedes {
-    grid-area: 3 / 1 / span 1 / span 3;
-    padding-bottom: 3vh;
-  }
-
-  p.copy {
-    grid-area: 4 / 1 / span 1 / span 3;
-  }
-
-}
-
-@media only screen and (max-width: 731px) {
-  .mainImg {
-    padding-top: 5%;
-  }
-
-  .mainText {
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
 /* preguntas frecuentes */
 
 #preguntas-frecuentes {
@@ -357,13 +221,9 @@ main div.container-quienes {
 
 :root {
   --color-primary: #114c5f;
-
   --color-secondary: #0799b6;
- 
   --color-accent: #1abc9c;
-
   --color-text: #fff;
-  
 }
 
 .contenedor-acordeon {
@@ -415,20 +275,15 @@ main div.container-quienes {
   display: none;
 }
 
-@media screen and (max-width:900px) {
-  .contenedor-acordeon {
-    width: 90%;
-  }
-}
-
 /* Estilo para la sección Libros */
 #libros {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: flex-start;
   margin-top: 50px;
-  background-color:#f2e6cf(232, 204, 237, 0.8);
+  background-color: #f2e6cf(232, 204, 237, 0.8);
 }
+
 .modal {
   display: none;
   position: fixed;
@@ -447,7 +302,7 @@ main div.container-quienes {
   padding: 20px;
   border: 1px solid #888;
   width: 60%;
-  max-width: 600px; 
+  max-width: 600px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   position: relative;
@@ -465,9 +320,11 @@ main div.container-quienes {
 .modal-description {
   padding: 10px;
 }
+
 #suscripcionesanteriores {
   font-size: 14px;
 }
+
 #container_izq {
   flex: 0 0 45%;
 }
@@ -500,6 +357,7 @@ main div.container-quienes {
 
 .libro img {
   width: 100%;
+  max-width: 90px; 
   height: auto;
   border-bottom: 1px solid #ddd;
 }
@@ -508,14 +366,15 @@ main div.container-quienes {
   transform: scale(1.05);
 }
 
-.libro p, .libro span {
+.libro p,
+.libro span {
   padding: 5px;
   margin: 0;
   font-size: 14px;
 }
 
 .libro .item_title {
-  font-weight:'Libre Baskerville', serif;
+  font-weight: 'Libre Baskerville', serif;
 }
 
 .libro .autor {
@@ -536,9 +395,31 @@ main div.container-quienes {
 
 /* Estilo para la sección Contacto */
 #contacto {
-  width: 80%; /* Ancho del contenedor */
-  max-width: 600px; /* Ancho máximo para hacerlo responsive*/
-  margin: 50px auto 0; /* Centrar horizontalmente */
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto 0;
+  margin-top: 0%;
+  margin-bottom: 30px;
+  padding: 30px;
+  font-family: 'Libre Baskerville', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: #2c2b2b;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.5;
+  background-position: center;
+  opacity: 0.7;
+}
+/* Estilo para la sección Contacto ,inicio de sesion y suscrpcion */
+#contacto {
+  width: 80%; 
+  max-width: 600px; 
+  margin: 50px auto 0; 
   margin-top: 0%;
   margin-bottom: 30px; 
   padding: 30px;
@@ -562,37 +443,6 @@ h2#contacto {
   flex-direction: column;
   align-items: center;
 }
-
-form#contacto-form {
-  margin: 0 auto; /* Centrar el formulario */
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select,
-textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-}
-
-/* botón de enviar */
-input[type="submit"] {
-  background-color: #0095B6;
-  color: #FFFFFF;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* etiqueta "Mensaje" */
 label[for="message"] {
   display: block;
@@ -600,13 +450,37 @@ label[for="message"] {
   margin-bottom: 2px;
 }
 
-/* enlaces*/
+form#contacto-form {
+  margin: 0 auto; /* Centrar el formulario */
+}
+
+label[for="message"] {
+  display: block;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
 a {
   color: #0095B6;
   text-decoration: none;
   margin-right: 5px;
   margin-left: 10px;
  
+}
+
+/* Estilos para los campos de los formularios */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select,
+textarea {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
 }
 
 #inicio-sesion {
@@ -626,8 +500,10 @@ a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   line-height: 1.5;
-  background-position: center;
   opacity: 0.7;
+  margin-top: 10%;
+  justify-content: space-between;
+  text-align: center;
 }
 h2#inicio-sesion {
   text-align: center;
@@ -636,96 +512,129 @@ h2#inicio-sesion {
   align-items: center;
 }
 
-form#inicio-sesion {
-  margin: 0 auto; /* Centrar el formulario */
+#form-inicio-sesion {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-input[type="text"],
-input[type="email"],
-select,
-textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
+.form-container {
+  padding: 16px;
+  background-color: white;
 }
 
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-}
-
-@media (max-width: 600px) {
-  input[type="text"],
-  input[type="password"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-  }
-}
-
-a:hover {
-  text-decoration: underline;
-  /* Agrega subrayado al pasar el mouse */
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  font-family: 'Libre Baskerville', serif;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-}
-
-/* Estilos para la ventana emergente */
-.ventana {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.4);
-}
-
-.ventana-contenido {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 400px;
-}
-
-.cerrar {
-  color: #aaa;
+.close {
+  color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.cerrar:hover,
-.cerrar:focus {
-  color: black;
+.close:hover,
+.close:focus {
+  color: #000;
   text-decoration: none;
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
 
-  input[type="text"],
-  input[type="password"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-  }
+a:hover {
+  text-decoration: underline;
+}
+
+/* botón de enviar */
+input[type="submit"] {
+  background-color: #0095B6;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+#btn-inicio-sesion,
+#btn-suscripcion,
+input[type="submit"] {
+  text-align: center; /* Centra el texto dentro de los botones */
+}
+
+#contacto-form input[type="text"],
+#contacto-form input[type="email"],
+#contacto-form input[type="tel"],
+#contacto-form textarea,
+#inicio-sesion-form input[type="text"],
+#inicio-sesion-form input[type="password"],
+#suscripcion-form input[type="text"],
+#suscripcion-form input[type="email"] {
+  width: calc(100% - 20px); 
+}
+
+/* enlaces*/
+a {
+  color: #0095b6;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #0799b6;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.logoFooter img {
+  width: 100px;
+}
+
+/* Redes sociales */
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.redes-sociales a {
+  margin: 10px;
+  color: #fff;
+}
+
+.redes-sociales a:hover {
+  color: #c9c8c9;
+}
+
+/* Contenedor general del pie de página */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Texto de derechos de autor */
+.copy {
+  margin-top: 20px;
+  color: #fff;
+}
+
+/* Contenedor de derechos de autor */
+.copy-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* FOOTER */
@@ -809,4 +718,161 @@ h4 {/* todos los textos h4 */
   margin-inline-end: 30px; 
   margin-bottom: 20px; 
   margin-top: 20px;
+}
+/* BARRA RESPONSIVE */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  nav ul li:last-child {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .ini-ses {
+    display: flex;
+  }
+
+  nav {
+    z-index: 99;
+  }
+
+  nav>div {
+    background-color: #9cd2d3;
+  }
+
+  .nav-login {
+    display: none;
+  }
+
+  .navbar-brand img {
+    height: auto;
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  main {
+    text-align: center;
+  }
+
+  .mainText {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .mainText {
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  nav div#navbarNav ul li a {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .navbar-brand img {
+    height: auto;
+    width: 40vw;
+  }
+}
+/* SECCIONES*/
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  section p {
+    font-size: 0.9em;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.3em;
+  }
+
+}
+/* QUIENES SOMOS RESPONSIVE */
+@media only screen and (max-width: 650px) {
+  .mainImg {
+    display: none;
+  }
+
+  .logoFooter {/* FOOTER RESPONSIVE */
+    grid-area: 1 / 1 / span 1 / span 3;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+  }
+
+  .accesoRapido {
+    grid-area: 2 / 1 / span 1 / span 3;
+    padding-bottom: 3vh;
+  }
+
+  .logoRedes {
+    grid-area: 3 / 1 / span 1 / span 3;
+    padding-bottom: 3vh;
+  }
+
+  p.copy {
+    grid-area: 4 / 1 / span 1 / span 3;
+  }
+}
+
+@media only screen and (max-width: 731px) {
+  .mainImg {
+    padding-top: 5%;
+  }
+
+  .mainText {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contenedor-acordeon {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  input[type="text"],
+  input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer div.container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  p.copy {
+    grid-area: auto;
+    padding-top: 3vh;
+  }
+
+  footer a img {
+    margin: 5px;
+  }
 }
