@@ -2,156 +2,6 @@ a {
   color:#262424;
   text-decoration: none;
 }
-p {
-  max-width: 1000px; /* Establece el ancho máximo del main en 800px */
-  margin: 0 auto; /* Centra el main horizontalmente en la página */
-}
-body {
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-  background-color:write;
-  background-attachment: fixed; /* Fija la imagen de fondo */
-  overflow-y: scroll; /* Hacer que el scroll vertical esté siempre presente */
-  background-position:top; /* Ajusta la posición de la imagen de fondo */
-  background-size: auto 100vh; 
-}
-
-h4 {
-  font-family: 'Libre Baskerville', serif;
-  color: #262424;
-  text-align: center; 
-  margin-inline-end: 30px; 
-  margin-bottom: 20px; /* Espacio inferior */
-}
-.content {
-  height: 70px; /* Altura suficiente para hacer scroll */
-}
-
-/* QUIENES SOMOS */
-
-main img {
-  width: 20em;
-}
-#quienes-somos {
-  padding: 20px;
-}
-.quieneSomos {
-  margin-top: 0;
-  margin-top: 0;
-}
-
-main div.container-quienes {
-  background:#c9c8c9;
-  border-radius: 0;
-  display: flex;
-  justify-content: space-evenly;
-  min-height: 60vh;
-  align-items: center;
-}
-
-.mainText {
-  text-align: right;
-  /* padding-top: 5%; */
-}
-
-/* MEDIAS QUERY */
-
-@media only screen and (max-width: 650px) {
-  .mainImg {
-    display: none;
-  }
-
-  .logoFooter {
-    grid-area: 1 / 1 / span 1 / span 3;
-    padding-bottom: 3vh;
-    padding-top: 3vh;
-  }
-
-  .accesoRapido {
-    grid-area: 2 / 1 / span 1 / span 3;
-    padding-bottom: 3vh;
-  }
-
-  .logoRedes {
-    grid-area: 3 / 1 / span 1 / span 3;
-    padding-bottom: 3vh;
-  }
-
-  p.copy {
-    grid-area: 4 / 1 / span 1 / span 3;
-  }
-
-}
-
-@media only screen and (max-width: 731px) {
-  .mainImg {
-    padding-top: 5%;
-  }
-
-  .mainText {
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .ini-ses {
-    display: flex;
-  }
-
-  nav {
-    z-index: 99;
-  }
-
-  nav>div {
-    background-color: #9cd2d3;
-  }
-
-  .nav-login {
-    display: none;
-  }
-
-  .navbar-brand img {
-    height: auto;
-    width: 20vw;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-
-  main {
-    text-align: center;
-  }
-
-  .mainText {
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  .mainText {
-    padding-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-}
-
-@media only screen and (max-width: 1300px) {
-
-  nav div#navbarNav ul li a {
-    font-size: 90%;
-
-  }
-}
-
-@media only screen and (max-width: 430px) {
-  .navbar-brand img {
-    height: auto;
-    width: 40vw;
-  }
-}
 
 * {
   color: #262424;
@@ -164,41 +14,26 @@ body {
   line-height: 1.6;
   background-size: cover;
   background-position: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color:write;
+  background-size: auto 100vh; 
 }
 
 header h1 {
   text-align: center;
-  /* Alinear el texto al centro*/
 
 }
 
-/* Estilo para el cuerpo del documento */
-body {
+h4 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 16px;
-  line-height: 1.6;
-  background-position: center;
+  color: #262424;
+  text-align: center; 
+  margin-inline-end: 30px; 
+  margin-bottom: 20px; 
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  section {
-    padding: 10px;
-    /* Reducir el padding en pantallas pequeñas */
-  }
-
-  section p {
-    font-size: 0.9em;
-  }
-
-  h2,
-  h3 {
-    font-size: 1.3em;
-  }
-}
 
 nav {
   background-color: #0799b6;
@@ -319,7 +154,203 @@ nav ul li a:hover {
     
   }
 }
+@media only screen and (max-width: 991px) {
+  .ini-ses {
+    display: flex;
+  }
 
+  nav {
+    z-index: 99;
+  }
+
+  nav>div {
+    background-color: #9cd2d3;
+  }
+
+  .nav-login {
+    display: none;
+  }
+
+  .navbar-brand img {
+    height: auto;
+    width: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  main {
+    text-align: center;
+  }
+
+  .mainText {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .mainText {
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+
+  nav div#navbarNav ul li a {
+    font-size: 90%;
+
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .navbar-brand img {
+    height: auto;
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  section p {
+    font-size: 0.9em;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.3em;
+  }
+}
+
+/* Estilo para la sección carrusel */
+.carousel-containerpp {
+  position: relative;
+  border-radius: 0;
+}
+
+.carousel-pp {
+  display: flex;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.carousel-itempp {
+  flex: 0 0 100%;
+}
+
+.carousel-itempp img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
+.prev-nextpp {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: none; 
+}
+
+.prev-nextpp button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  z-index: 1;
+}
+
+.prev-nextpp button:hover {
+  opacity: 0.7;
+}
+
+.previ {
+  left: 20px; 
+}
+
+.sigu {
+  right: 20px; 
+}
+
+/* QUIENES SOMOS */
+
+main img {
+  width: 20em;
+}
+#quienes-somos {
+  padding: 20px;
+}
+.quieneSomos {
+  margin-top: 0;
+  margin-top: 0;
+}
+
+main div.container-quienes {
+  background:#c9c8c9;
+  border-radius: 0;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 60vh;
+  align-items: center;
+}
+
+.mainText {
+  text-align: right;
+}
+
+/* MEDIAS QUERY */
+
+@media only screen and (max-width: 650px) {
+  .mainImg {
+    display: none;
+  }
+
+  .logoFooter {
+    grid-area: 1 / 1 / span 1 / span 3;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+  }
+
+  .accesoRapido {
+    grid-area: 2 / 1 / span 1 / span 3;
+    padding-bottom: 3vh;
+  }
+
+  .logoRedes {
+    grid-area: 3 / 1 / span 1 / span 3;
+    padding-bottom: 3vh;
+  }
+
+  p.copy {
+    grid-area: 4 / 1 / span 1 / span 3;
+  }
+
+}
+
+@media only screen and (max-width: 731px) {
+  .mainImg {
+    padding-top: 5%;
+  }
+
+  .mainText {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+/* preguntas frecuentes */
 
 #preguntas-frecuentes {
   padding: 20px;
@@ -334,13 +365,13 @@ nav ul li a:hover {
 
 :root {
   --color-primary: #114c5f;
-  /* Azul oscuro */
+
   --color-secondary: #0799b6;
-  /* Azul claro */
+ 
   --color-accent: #1abc9c;
-  /* Verde agua */
+
   --color-text: #fff;
-  /* Texto blanco */
+  
 }
 
 .contenedor-acordeon {
@@ -397,59 +428,6 @@ nav ul li a:hover {
     width: 90%;
   }
 }
-/* Estilo para la sección carrusel */
-.carousel-containerpp {
-  position: relative;
-  border-radius: 0;
-}
-
-.carousel-pp {
-  display: flex;
-  overflow: hidden;
-  border-radius: 0;
-}
-
-.carousel-itempp {
-  flex: 0 0 100%;
-}
-
-.carousel-itempp img {
-  width: 100%;
-  height: auto;
-  border-radius: 0;
-}
-
-.prev-nextpp {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  display: none; 
-}
-
-.prev-nextpp button {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 10px;
-  z-index: 1;
-}
-
-.prev-nextpp button:hover {
-  opacity: 0.7;
-}
-
-.previ {
-  left: 20px; 
-}
-
-.sigu {
-  right: 20px; 
-}
 
 /* Estilo para la sección Libros */
 #libros {
@@ -477,7 +455,7 @@ nav ul li a:hover {
   padding: 20px;
   border: 1px solid #888;
   width: 60%;
-  max-width: 600px; /* Limitar el ancho máximo del modal */
+  max-width: 600px; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   position: relative;
@@ -513,12 +491,22 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   opacity: 0.7;
 }
-.contenido-pp {
+
+/* paginas externas */
+div.contenido-pp {
   background-color: rgba(255, 255, 255, 0.8);
   opacity: 0.7;
-  border-radius:0;
-  padding-top:10px;
+  border-radius: 0;
+  padding-top: 10px;
+  text-align: center; 
+  margin: 0 auto;
 }
+p {
+  max-width: 1000px; 
+  margin: 0 auto; 
+  color: #565353;
+}
+
 .libros_anteriores {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
@@ -613,7 +601,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-/* Estilo para el botón de enviar */
+/* botón de enviar */
 input[type="submit"] {
   background-color: #0095B6;
   color: #FFFFFF;
@@ -627,27 +615,26 @@ input[type="submit"] {
   margin-right: auto;
 }
 
-/* Estilo para la etiqueta "Mensaje" */
+/* etiqueta "Mensaje" */
 label[for="message"] {
   display: block;
   text-align: center;
   margin-bottom: 2px;
 }
 
-/* Estilo para el enlace de políticas */
+/* enlaces*/
 a {
   color: #0095B6;
   text-decoration: none;
-  /* Quita el subrayado predeterminado */
   margin-right: 5px;
-  /* Margen derecho */
   margin-left: 10px;
-  /* Margen izquierdo */
+ 
 }
+
 #inicio-sesion {
-  width: 80%; /* Ancho del contenedor */
-  max-width: 600px; /* Ancho máximo para hacerlo responsive*/
-  margin: 50px auto 0; /* Centrar horizontalmente */
+  width: 80%; 
+  max-width: 600px; 
+  margin: 50px auto 0; 
   padding: 40px;
   font-family: 'Libre Baskerville', serif;
   display: flex;
@@ -693,10 +680,12 @@ input[type="password"] {
   margin-bottom: 10px;
 }
 
-#terminos,
-#politicadeprivacidad {
-  text-align: center;
-  /* Centrar términos y condiciones e inscripción */
+@media (max-width: 600px) {
+  input[type="text"],
+  input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
 }
 
 a:hover {
@@ -706,75 +695,14 @@ a:hover {
 
 .modal {
   display: none;
-  /* ocultar el modal */
   position: fixed;
   z-index: 1;
-  /* para que esté en la parte superior */
   font-family: 'Libre Baskerville', serif;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
-  /* Habilitar el desplazamiento si el contenido es demasiado largo */
-}
-
-.modal {
-  display: none;
-  /* Lo ocultamos inicialmente */
-  position: fixed;
-  /* Lo posicionamos de manera fija para que permanezca en su lugar cuando se desplaza la página */
-  top: 50%;
-  /* Lo movemos hacia abajo un 50% de la altura de la ventana */
-  left: 50%;
-  /* Lo movemos hacia la derecha un 50% del ancho de la ventana */
-  transform: translate(-50%, -50%);
-  /* Lo movemos hacia arriba y hacia la izquierda la mitad de su propio tamaño */
-  padding: 20px;
-  border-radius: 10px;
-  z-index: 1000;
-  /* Asegura que el modal esté encima de otros elementos */
-}
-
-.modal-content {
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  /* Ancho del modal */
-  max-width: 600px;
-  /* Ancho máximo del modal */
-}
-
-.close {
-  color: #f2f2f2;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-#loginForm button[type="submit"] {
-  display: block;
-  /* Convertir el botón en bloque para que ocupe todo el ancho disponible */
-  margin: 20px auto 0;
-}
-
-/* Estilo para el botón de cerrar */
-.close {
-  color: #aaa;
-  font-size: 28px;
-  font-weight: 'Libre Baskerville', serif;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
 }
 
 /* Estilos para la ventana emergente */
@@ -811,10 +739,9 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-/* Media query para dispositivos móviles */
+
 @media (max-width: 600px) {
 
-  /* Reducir el tamaño del padding y del borde para los campos de entrada cuando este mas chiquitito */
   input[type="text"],
   input[type="password"] {
     padding: 8px;
