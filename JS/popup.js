@@ -9,7 +9,7 @@ function showResumen(element) {
 
   modal.style.display = 'block';
   modalTitle.textContent = titulo + ' - ' + autor;
-  modalContent.innerHTML = '<p>' + reseña.slice(0,2500) + '...</p>';
+  modalContent.innerHTML = '<p>' + reseña.slice(0,2550) + '...</p>';
 }
 
 function closeModal() {

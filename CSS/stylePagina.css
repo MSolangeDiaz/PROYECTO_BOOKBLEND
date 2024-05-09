@@ -6,6 +6,7 @@ a {
 * {
   color: #262424;
   padding: 20px;
+  border-radius: 10px;;
 }
 
 body {
@@ -185,7 +186,8 @@ main img {
 }
 
 #quienes-somos {
-  padding: 20px;
+  padding: 10px;
+  text-align: center;
 }
 
 .quieneSomos {
@@ -197,13 +199,16 @@ main div.container-quienes {
   background: #c9c8c9;
   border-radius: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   min-height: 60vh;
-  align-items: center;
+  align-items:center;
 }
 
 .mainText {
   text-align: right;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
 
 /* preguntas frecuentes */
